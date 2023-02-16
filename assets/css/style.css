@@ -26,8 +26,8 @@ header h1 {
     color: #d9dcd6;
     font-size: 48px;
 }
-
-header nav {
+/* ADD NAV ENGINES STRUCTURE STYLE */
+header nav { 
     float: right;
     display: inline-block;
     padding-top: 15px;
@@ -46,7 +46,7 @@ a {
    color: #ffffff;
    text-decoration: none;
 }
-
+/* ADD STYLE, DISPLAY, MARGIN AND FONT SIZE TO SEARCHING ENGINES */
 .searching-buttons {
     list-style-type: none;
     display: inline-block;
@@ -62,7 +62,9 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* HTML STRUCTURE GIVEN TO SEARCHING ENGINES CONTENT all common element shared by 
+the services are included on this section 'this does not define the uniqueness of 
+the content and style of each segment' */
 main {
     width: 75%;
     display: inline-block;
@@ -88,8 +90,9 @@ main img {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-
+/* 
+Each content element style allowing the user to experience each individually and given own 
+identity */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
